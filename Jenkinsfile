@@ -2,8 +2,8 @@ pipeline {
   agent any
   environment {
     CLOUDSDK_CORE_PROJECT='insights-api-localdev'
-    CLIENT_EMAIL='jenkins@insights-api-localdev.iam.gserviceaccount.com'
-    GCLOUD_CREDS=credentials('gcloud-creds')
+    CLIENT_EMAIL='ranjan@my-demo-394310.iam.gserviceaccount.com'
+    GCLOUD_CREDS=credentials('my-demo-394310-fa88c025cefd.json')
   }
   stages {
     stage('Verify version') {
